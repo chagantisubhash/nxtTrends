@@ -62,6 +62,7 @@ class LoginForm extends Component {
           type="password"
           id="password"
           className="password-input-field"
+          placeholder="rahul@2021"
           value={password}
           onChange={this.onChangePassword}
         />
@@ -79,6 +80,7 @@ class LoginForm extends Component {
         <input
           type="text"
           id="username"
+          placeholder="rahul"
           className="username-input-field"
           value={username}
           onChange={this.onChangeUsername}
